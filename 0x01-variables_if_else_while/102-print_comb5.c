@@ -1,41 +1,27 @@
 #include <stdio.h>
 
 /**
- * main -Prints numbers between 00 and 99.
+ * main - where programs are executed
  *
- * Retuirn: Always 0 (Success)
+ * Return: Always 0.
  */
-int main(){
-
-	int a = 0;
-	int b;
-	int c;
-	while (a < 10)
+int main(void)
+{
+	int digit1, digit2;
+	for (digit1 = 0; digit1 < 9; digit1++)
 	{
-		b = 0;
-		while (b < 10)
+		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 		{
-			c = 0;
-			while (c < 10)
+			putchar((digit1 % 10) + '0');
+			putchar((digit2 % 10) + '0');
+			if (digit1 == 8 && digit2 == 9)
 			{
-
-				if (!(a==b || b==c || a==c) && (a < b && b < c))
-				{
-					putchar('0' + a);
-					putchar('0' + b);
-					putchar('0' + c);
-					if (!(a==7 && b==8 && c==9))
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
+				continue;
 			}
-			c++;
+			putchar(',');
+			putchar(' ');
 		}
-		b++;
 	}
-	a++;
-
-return (0);
+	purchar('\n');
+	return (0);
 }
