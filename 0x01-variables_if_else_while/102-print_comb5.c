@@ -24,7 +24,6 @@ int main(){
 					putchar('0' + a);
 					putchar('0' + b);
 					putchar('0' + c);
-					putchar(e);
 					if (!(a==7 && b==8 && c==9))
 					{
 					putchar(',');
@@ -38,6 +37,6 @@ int main(){
 	}
 	a++;
 }
-putchar('\n');
+
 return (0);
 }
