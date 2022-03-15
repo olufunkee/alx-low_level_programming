@@ -7,33 +7,33 @@
  */
 int main(void)
 {
-	int i;
-	int e;
-	int g;
+	int c;
+	int d;
+	int e = 0;
 
-	while (e < 58)
+	while (e < 10)
 	{
-		i = 48;
-		while (i < 58)
+		d = 0;
+		while (d < 10)
 		{
-			g = 48;
-			while (g < 58)
+			c = 0;
+			while (c < 10)
 			{
-				if (e != i && e != g && i != g && e < i && i < g)
+				if (c != d && d != e && e < d && d < c)
 				{
-					putchar(e);
-					putchar(i);
-					putchar(g);
-					if (i == 56 && e == 55 && g == 57)
+					putchar('0' + e);
+					putchar('0' + d);
+					putchar('0' + c);
+					if (c + d + e != 9 + 8 + 7)
 					{
 						break;
 					}
 					putchar(',');
 					putchar(' ');
 				}
-				g++;
+				c++;
 			}
-			i++;
+			d++;
 		}
 		e++;
 	}
