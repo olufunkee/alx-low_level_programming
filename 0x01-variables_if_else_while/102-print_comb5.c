@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main -Prints numbers between 00 and 89.
+ * main -Prints numbers between 00 and 99.
  *
  * Retuirn: Always 0 (Success)
  */
-int main(){
-
+int main(void)
+{
 int i, e, g, h, op1, op2;
 
 i = e = g = h = 48;
