@@ -26,8 +26,8 @@ int main(){
 					putchar('0' + c);
 					if (!(a==7 && b==8 && c==9))
 					{
-					putchar(',');
-					putchar(' ');
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
@@ -36,7 +36,6 @@ int main(){
 		b++;
 	}
 	a++;
-}
 
 return (0);
 }
