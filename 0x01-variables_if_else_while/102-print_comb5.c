@@ -5,43 +5,38 @@
  *
  * Retuirn: Always 0 (Success)
  */
-int main(void)
-{
-int i, e, g, h, op1, op2;
+int main(){
 
-i = e = g = h = 48;
-while (h < 58)
-{
-	g = 48;
-	while (g < 58)
+	int a = 0;
+	int b;
+	int c;
+	while (a < 10)
 	{
-		e = 48;
-		while (e < 58)
+		b=0;
+		while (b < 10)
 		{
-			i = 48;
-			while (i < 58)
+			c = 0
+			while (c < 10)
 			{
-				op1 = (h * 10) + g;
-				op2 = (e * 10) + i;
-				if (op1 < op2)
+
+				if (!(a==b || b==c || a==c) && (a < b && b < c))
 				{
-					putchar(h);
-					putchar(g);
-					putchar(' ');
+					putchar('0' + a);
+					putchar('0' + b);
+					putchar('0' + c);
 					putchar(e);
-					putchar(i);
-					if (h == 57 && g == 56 && e == 57 && i == 57)
-						break;
+					if (!(a==7 && b==8 && c==9))
+					{
 					putchar(',');
 					putchar(' ');
+					}
 				}
-				i++;
 			}
-			e++;
+			c++;
 		}
-		g++;
+		b++;
 	}
-	h++;
+	a++;
 }
 putchar('\n');
 return (0);
