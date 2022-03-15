@@ -5,8 +5,8 @@
  *
  * Retuirn: Always 0 (Success)
  */
-int main()
-{
+int main(){
+
 int i, e, g, h, op1, op2;
 
 i = e = g = h = 48;
