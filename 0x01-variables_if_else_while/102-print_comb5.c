@@ -12,10 +12,10 @@ int main(){
 	int c;
 	while (a < 10)
 	{
-		b=0;
+		b = 0;
 		while (b < 10)
 		{
-			c = 0
+			c = 0;
 			while (c < 10)
 			{
 
