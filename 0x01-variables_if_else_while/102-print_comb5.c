@@ -5,7 +5,7 @@
  *
  * Retuirn: Always 0 (Success)
  */
-int main(void)
+int main()
 {
 int i, e, g, h, op1, op2;
 
