@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 	int e;
-	int g
+	int g;
 	int h;
 	int op1;
 	int op2;
