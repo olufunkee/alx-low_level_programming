@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalphae - prints alphabets only
+ * _isalpha - prints alphabets only
  *
  * @c: is the parameter used
  *
