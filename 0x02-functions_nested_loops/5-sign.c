@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  print_sign- to print signs 
+ *  print_sign- to print signs
  *
  *  @n: insert character
  *
