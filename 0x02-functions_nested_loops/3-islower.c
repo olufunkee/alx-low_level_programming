@@ -3,8 +3,6 @@
 /**
  * _islower - to print 1 if lowercase
  *
- * @c - the parameter used
- *
  * Return: value int
  */
 int _islower(int c)
