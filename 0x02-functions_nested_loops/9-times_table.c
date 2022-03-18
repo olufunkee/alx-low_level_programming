@@ -5,7 +5,7 @@
  * Return: Void.
  */
 
-Void times_table(void)
+void times_table(void)
 {
 	int x, y, multiplied_value;
 
