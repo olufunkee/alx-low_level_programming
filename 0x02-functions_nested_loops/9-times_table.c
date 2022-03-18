@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_tables - print 9 times table
+ * times_table - print 9 times table
  *
  * Return: Void.
  */
