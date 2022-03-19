@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_Line - Print line dependent on the integer n.
+ * print_line - Print line dependent on the integer n.
  * @n : The number of '_' characters to use
  * Return : Void.
  */
