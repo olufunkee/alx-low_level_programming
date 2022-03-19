@@ -3,8 +3,8 @@
 
 /**
  * print_Line - Print line dependent on the integer n.
- * @n: The number of '_' characters to use
- * Return: Void.
+ * @n : The number of '_' characters to use
+ * Return : Void.
  */
 void print_line(int n)
 {
