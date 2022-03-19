@@ -2,25 +2,25 @@
 #include <stdio.h>
 
 /**
- * more_numbers - Print numbers betweeen 0 to 14 incl
+ * more_numbers - Print ten times the number from 0 to 14
  *
- * Return: Alwayas void.
+ * Return: Always void
  */
-void more_numbers(void)
+void more_numbers(void);
 {
 	int y;
-	int n;
+	int x;
 
-	for (n = 0; n <= 9; n++)
+	for (x = 0; x < 10; x++}
 	{
 		y = 0;
 		while (y <= 14)
 		{
 			if (y >= 10)
 			{
-				_putchar(i / 10 + '0');
+				_putchar(y / 10 + '0');
 			}
-				_putchar(i % 10 + '0');
+				_putchar(y % 10 + '0');
 			y++;
 		}
 	_putchar('\n');
