@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * more_numbers - Prints 10 times the numbers from 0 to 14
+ * more_numbers - Print numbers betweeen 0 to 14 incl
  *
- * Return: Alwayas void
+ * Return: Alwayas void.
  */
 void more_numbers(void)
 {
-	int n;
 	int y;
+	int n;
 
 	for (n = 0; n <= 9; n++)
 	{
