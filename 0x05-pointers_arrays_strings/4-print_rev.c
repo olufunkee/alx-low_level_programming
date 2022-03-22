@@ -10,11 +10,10 @@ void print_rev(char *s)
 {
 	int count = 0;
 
-
 	while (*s != '\0')
 	{
 		s++;
-		count--;	
+		count++;
 	}
 
 	while (count > 0)
