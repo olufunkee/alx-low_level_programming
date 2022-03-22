@@ -2,11 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int _putchar(char c)
+int _putchar(char c);
 
 /**
  * print_number - like a hello world
+ *
  * @n: params an integer
+ *
  * No return
  */
 
