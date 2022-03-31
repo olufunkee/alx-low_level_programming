@@ -1,4 +1,4 @@
-#ifndef 		FILE_MAIN
+#ifndef FILE_MAIN
 #define FILE_MAIN
 
 void _puts_recursion(char *s);
@@ -11,5 +11,6 @@ int is_prime_number(int n);
 int _sqrt(int n, int i);
 int wildcmp(char *s1, char *s2);
 int is_palindrome(char *s);
+void _putchar(char c);
 
 #endif
