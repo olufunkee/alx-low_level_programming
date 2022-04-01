@@ -1,15 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
+#include <stdio.h>
+#include <stdio.h>
 
-/*
- * @s: parameter
- * Return: Always 0
- */
-
-int main(int argc, char **argv)
+int main(int argc, char* argv[])
 {
-	while(argc--)
-		_putchar(*s);
-	exit(EXIT_SUCCESS);
+	_putchar(argc);
+	return 0;
 }
