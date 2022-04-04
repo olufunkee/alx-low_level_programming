@@ -1,9 +1,14 @@
-#include "main.h"
-#include <stdio.h>
 #include <stdio.h>
 
-int main(int argc, char* argv[])
+/**
+ * main - function
+ * @argc: offset count
+ * @argv: offset value
+ * Return: 0
+ */
+
+int main(int argc, char *argv[])
 {
-	_putchar(argc);
-	return 0;
+	printf("%s\n", argc);
+	return (0);
 }
