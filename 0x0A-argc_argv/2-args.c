@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- * main -print all the arguments it receives
+ * main - prints all arguments it receives
  * @argc: n args
  * @argv: arr args
  * Return: 0
  */
-
-int main(int argc char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
